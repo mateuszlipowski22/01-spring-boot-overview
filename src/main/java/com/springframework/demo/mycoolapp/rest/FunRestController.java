@@ -12,7 +12,12 @@ public class FunRestController {
     }
 
     @GetMapping("/workout")
-    public String getDailyWOrkout(){
+    public String getDailyWorkout(){
         return "Updated version automated";
+    }
+
+    @GetMapping("/fortune")
+    public String getDailyFortune(){
+        return "Today is yout lucky day";
     }
 }
