@@ -10,4 +10,5 @@ public class MycoolappApplication {
         SpringApplication.run(MycoolappApplication.class, args);
     }
 
+
 }
