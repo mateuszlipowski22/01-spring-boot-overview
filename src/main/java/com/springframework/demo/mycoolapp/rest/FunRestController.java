@@ -11,4 +11,8 @@ public class FunRestController {
         return "Hello World";
     }
 
+    @GetMapping("/workout")
+    public String getDailyWOrkout(){
+        return "Updated version automated";
+    }
 }
